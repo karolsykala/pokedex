@@ -1,0 +1,29 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "A sleek, terminal-based Pokedex built in TypeScript—powered by [boot.dev’s Pokedex course](https://www.boot.dev/courses/build-pokedex-cli-typescript). Search and explore Pokémon data straight from your command line.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/main.js",
+    "dev": "npx tsc && node dist/main.js",
+    "test": "vitest --run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolsykala/pokedex.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolsykala/pokedex/issues"
+  },
+  "homepage": "https://github.com/karolsykala/pokedex#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "typescript": "^5.8.3",
+    "vitest": "^3.2.4"
+  }
+}
